@@ -1,17 +1,55 @@
---- Results for k=4 ---
-Labels: [0 3 2 1 2 0 1 1 1 0 2]
-Prédiction for 'Chrome browser to open.': [1]
+--- Results for k=3 ---
+Labels: [1 2 1 0 2 2 0 0 0 1 2]
+Prédiction for 'Chrome browser to open.': [0]
 Cluster 0:
- cat
+ google
+ chrome
+ impressed
+ feedback
+ map
+ browser
+ extensions
+ promoter
+ extension
+ key
+Cluster 1:
+ app
  little
- ninja
- climbing
+ incredibe
+ translate
  playing
  loves
  new
- kitty
  eating
  play
+ kitty
+Cluster 2:
+ cat
+ photo
+ kitten
+ best
+ ninja
+ climbing
+ ve
+ taken
+ squooshy
+ belly
+
+
+--- Results for k=4 ---
+Labels: [2 3 3 1 0 0 1 1 1 2 3]
+Prédiction for 'Chrome browser to open.': [1]
+Cluster 0:
+ cat
+ climbing
+ ninja
+ taken
+ ve
+ photo
+ best
+ browser
+ came
+ belly
 Cluster 1:
  google
  chrome
@@ -24,17 +62,164 @@ Cluster 1:
  extension
  key
 Cluster 2:
+ little
+ loves
+ new
+ playing
+ kitty
+ restaurant
+ eating
+ play
+ came
+ cat
+Cluster 3:
+ kitten
+ app
+ incredibe
+ translate
+ google
+ merley
+ belly
+ squooshy
+ took
+ using
+
+
+--- Results for k=5 ---
+Labels: [4 2 1 1 2 2 0 3 3 4 1]
+Prédiction for 'Chrome browser to open.': [3]
+Cluster 0:
+ map
+ impressed
+ feedback
+ google
+ ve
+ kitten
+ incredibe
+ face
+ extensions
+ extension
+Cluster 1:
+ google
+ app
+ incredibe
+ translate
+ took
+ using
+ face
+ open
+ 100
+ smiley
+Cluster 2:
+ cat
+ best
+ climbing
+ ninja
+ ve
+ taken
+ merley
+ belly
+ squooshy
  photo
+Cluster 3:
+ chrome
+ google
+ browser
+ extensions
+ key
+ extension
+ promoter
+ best
+ incredibe
+ impressed
+Cluster 4:
+ little
+ loves
+ new
+ playing
+ kitty
+ restaurant
+ eating
+ play
+ came
+ cat
+
+
+--- Results for k=6 ---
+Labels: [2 0 1 5 0 0 4 3 3 1 1]
+Prédiction for 'Chrome browser to open.': [3]
+Cluster 0:
+ cat
+ best
+ climbing
+ ninja
+ ve
+ taken
+ merley
+ belly
+ squooshy
+ photo
+Cluster 1:
  app
  translate
  incredibe
  google
- ve
- taken
  took
  using
- kitten
+ playing
+ loves
+ new
+ photo
+Cluster 2:
+ kitty
+ eating
+ came
+ restaurant
+ play
+ little
+ impressed
+ google
+ feedback
+ face
 Cluster 3:
+ chrome
+ google
+ browser
+ extensions
+ key
+ extension
+ promoter
+ best
+ incredibe
+ impressed
+Cluster 4:
+ map
+ impressed
+ feedback
+ google
+ ve
+ kitten
+ incredibe
+ face
+ extensions
+ extension
+Cluster 5:
+ 100
+ tab
+ face
+ smiley
+ open
+ google
+ eating
+ impressed
+ feedback
+ extensions
+
+
+--- Results for k=7 ---
+Labels: [6 0 4 1 5 5 3 3 3 2 4]
+Prédiction for 'Chrome browser to open.': [3]
+Cluster 0:
  belly
  squooshy
  merley
@@ -45,10 +230,169 @@ Cluster 3:
  incredibe
  impressed
  google
+Cluster 1:
+ 100
+ tab
+ face
+ smiley
+ open
+ google
+ eating
+ impressed
+ feedback
+ extensions
+Cluster 2:
+ loves
+ new
+ playing
+ little
+ app
+ cat
+ ve
+ extensions
+ impressed
+ google
+Cluster 3:
+ chrome
+ google
+ impressed
+ map
+ feedback
+ extensions
+ browser
+ key
+ promoter
+ extension
+Cluster 4:
+ app
+ translate
+ incredibe
+ google
+ took
+ using
+ kitten
+ photo
+ extension
+ impressed
+Cluster 5:
+ cat
+ climbing
+ ninja
+ taken
+ ve
+ photo
+ best
+ browser
+ came
+ belly
+Cluster 6:
+ kitty
+ eating
+ came
+ restaurant
+ play
+ little
+ impressed
+ google
+ feedback
+ face
 
 
---- Results for k=5 ---
-Labels: [3 2 4 4 1 1 3 0 0 1 2]
+--- Results for k=8 ---
+Labels: [1 4 0 6 3 7 5 2 2 1 0]
+Prédiction for 'Chrome browser to open.': [2]
+Cluster 0:
+ app
+ translate
+ incredibe
+ google
+ took
+ using
+ kitten
+ photo
+ extension
+ impressed
+Cluster 1:
+ little
+ loves
+ new
+ playing
+ kitty
+ restaurant
+ eating
+ play
+ came
+ cat
+Cluster 2:
+ chrome
+ google
+ browser
+ extensions
+ key
+ extension
+ promoter
+ best
+ incredibe
+ impressed
+Cluster 3:
+ ve
+ taken
+ photo
+ best
+ cat
+ incredibe
+ impressed
+ google
+ feedback
+ face
+Cluster 4:
+ belly
+ squooshy
+ merley
+ kitten
+ best
+ ve
+ extensions
+ incredibe
+ impressed
+ google
+Cluster 5:
+ map
+ impressed
+ feedback
+ google
+ ve
+ kitten
+ incredibe
+ face
+ extensions
+ extension
+Cluster 6:
+ 100
+ tab
+ face
+ smiley
+ open
+ google
+ eating
+ impressed
+ feedback
+ extensions
+Cluster 7:
+ ninja
+ climbing
+ cat
+ ve
+ extension
+ incredibe
+ impressed
+ google
+ feedback
+ face
+
+
+--- Results for k=9 ---
+Labels: [8 4 7 6 1 1 2 0 0 3 5]
 Prédiction for 'Chrome browser to open.': [0]
 Cluster 0:
  chrome
@@ -67,247 +411,56 @@ Cluster 1:
  ninja
  taken
  ve
+ photo
+ best
+ browser
+ came
+ belly
+Cluster 2:
+ map
+ impressed
+ feedback
+ google
+ ve
+ kitten
+ incredibe
+ face
+ extensions
+ extension
+Cluster 3:
  loves
  new
  playing
- photo
  little
-Cluster 2:
- kitten
- belly
- squooshy
- merley
- took
- using
- photo
- best
  app
- google
-Cluster 3:
- impressed
- map
- feedback
- kitty
- restaurant
- eating
- play
- came
- little
- google
-Cluster 4:
- incredibe
- translate
- google
- app
- smiley
- face
- open
- 100
- tab
- browser
-
-
---- Results for k=6 ---
-Labels: [2 1 1 3 0 5 4 4 4 5 1]
-Prédiction for 'Chrome browser to open.': [4]
-Cluster 0:
- ve
- taken
- photo
- best
  cat
- incredibe
+ ve
+ extensions
  impressed
  google
- feedback
- face
-Cluster 1:
- kitten
- app
- incredibe
- translate
- google
- merley
+Cluster 4:
  belly
  squooshy
- took
- using
-Cluster 2:
- kitty
- eating
- came
- restaurant
- play
- little
- impressed
- google
- feedback
- face
-Cluster 3:
- 100
- tab
- face
- smiley
- open
- google
- eating
- impressed
- feedback
+ merley
+ kitten
+ best
+ ve
  extensions
-Cluster 4:
- chrome
- google
+ incredibe
  impressed
- map
- feedback
- extensions
- browser
- key
- promoter
- extension
+ google
 Cluster 5:
- cat
- climbing
- ninja
- loves
- playing
- new
- little
- app
- ve
- extensions
-
-
---- Results for k=7 ---
-Labels: [3 0 2 4 0 6 5 1 1 6 2]
-Prédiction for 'Chrome browser to open.': [1]
-Cluster 0:
- best
- ve
- taken
- merley
- belly
- squooshy
- photo
- kitten
- cat
- came
-Cluster 1:
- chrome
- google
- browser
- extensions
- key
- extension
- promoter
- best
- incredibe
- impressed
-Cluster 2:
- app
- translate
- incredibe
- google
  took
  using
  kitten
  photo
- extension
- impressed
-Cluster 3:
- kitty
- eating
- came
- restaurant
- play
- little
- impressed
+ app
  google
- feedback
- face
-Cluster 4:
- 100
- tab
- face
- smiley
- open
- google
- eating
- impressed
- feedback
- extensions
-Cluster 5:
- map
- impressed
- feedback
- google
- ve
- kitten
  incredibe
+ impressed
+ feedback
  face
- extensions
- extension
 Cluster 6:
- cat
- climbing
- ninja
- loves
- playing
- new
- little
- app
- ve
- extensions
-
-
---- Results for k=8 ---
-Labels: [3 6 0 4 1 1 5 2 2 7 0]
-Prédiction for 'Chrome browser to open.': [2]
-Cluster 0:
- app
- translate
- incredibe
- google
- took
- using
- kitten
- photo
- extension
- impressed
-Cluster 1:
- cat
- climbing
- ninja
- taken
- ve
- photo
- best
- browser
- came
- belly
-Cluster 2:
- chrome
- google
- browser
- extensions
- key
- extension
- promoter
- best
- incredibe
- impressed
-Cluster 3:
- kitty
- eating
- came
- restaurant
- play
- little
- impressed
- google
- feedback
- face
-Cluster 4:
  100
  tab
  face
@@ -318,29 +471,56 @@ Cluster 4:
  impressed
  feedback
  extensions
-Cluster 5:
- map
- impressed
- feedback
- google
- ve
- kitten
- incredibe
- face
- extensions
- extension
-Cluster 6:
- belly
- squooshy
- merley
- kitten
- best
- ve
- extensions
- incredibe
- impressed
- google
 Cluster 7:
+ translate
+ incredibe
+ app
+ google
+ ve
+ eating
+ impressed
+ feedback
+ face
+ extensions
+Cluster 8:
+ kitty
+ eating
+ came
+ restaurant
+ play
+ little
+ impressed
+ google
+ feedback
+ face
+
+
+--- Results for k=10 ---
+Labels: [7 4 3 6 0 8 5 1 9 2 3]
+Prédiction for 'Chrome browser to open.': [9]
+Cluster 0:
+ ve
+ taken
+ photo
+ best
+ cat
+ incredibe
+ impressed
+ google
+ feedback
+ face
+Cluster 1:
+ key
+ promoter
+ extension
+ chrome
+ google
+ eating
+ incredibe
+ impressed
+ feedback
+ face
+Cluster 2:
  loves
  new
  playing
@@ -351,5 +531,82 @@ Cluster 7:
  extensions
  impressed
  google
+Cluster 3:
+ app
+ translate
+ incredibe
+ google
+ took
+ using
+ kitten
+ photo
+ extension
+ impressed
+Cluster 4:
+ belly
+ squooshy
+ merley
+ kitten
+ best
+ ve
+ extensions
+ incredibe
+ impressed
+ google
+Cluster 5:
+ map
+ impressed
+ feedback
+ google
+ ve
+ kitten
+ incredibe
+ face
+ extensions
+ extension
+Cluster 6:
+ 100
+ tab
+ face
+ smiley
+ open
+ google
+ eating
+ impressed
+ feedback
+ extensions
+Cluster 7:
+ kitty
+ eating
+ came
+ restaurant
+ play
+ little
+ impressed
+ google
+ feedback
+ face
+Cluster 8:
+ ninja
+ climbing
+ cat
+ ve
+ extension
+ incredibe
+ impressed
+ google
+ feedback
+ face
+Cluster 9:
+ extensions
+ browser
+ chrome
+ best
+ google
+ ve
+ key
+ incredibe
+ impressed
+ feedback
 
 
